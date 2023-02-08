@@ -31,5 +31,8 @@
 
     @include('website.partials.video')
     @include('website.partials.section_counter')
-    @include('website.partials.testimony')
+
+    @if (count($Testimonies)>0)
+        @include('website.partials.testimony')
+    @endif
 @endsection
