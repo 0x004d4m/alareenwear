@@ -1,0 +1,54 @@
+<?php
+
+namespace App\Http\Controllers\Admin;
+
+use App\Http\Requests\ServiceRequest;
+use Backpack\CRUD\app\Http\Controllers\CrudController;
+
+class ServiceCrudController extends CrudController
+{
+    use \Backpack\CRUD\app\Http\Controllers\Operations\ListOperation;
+    use \Backpack\CRUD\app\Http\Controllers\Operations\CreateOperation;
+    use \Backpack\CRUD\app\Http\Controllers\Operations\UpdateOperation;
+    use \Backpack\CRUD\app\Http\Controllers\Operations\DeleteOperation;
+    use \Backpack\CRUD\app\Http\Controllers\Operations\ShowOperation;
+
+    public function setup()
+    {
+        if (!backpack_user()->can('View Services'))
+        {
+            abort(403, 'Access denied');
+        }
+
+        if (!backpack_user()->can('Manage Services'))
+        {
+            $this->crud->denyAccess(['create','delete','update']);
+        }
+        $this->crud->setModel(\App\Models\Service::class);
+        $this->crud->setRoute(config('backpack.base.route_prefix') . '/service');
+        $this->crud->setEntityNameStrings('service', 'services');
+    }
+
+    protected function setupListOperation()
+    {
+        $this->crud->column('title');
+        $this->crud->column('image')->type('image');
+        $this->crud->column('created_at');
+        $this->crud->column('updated_at');
+        $this->crud->column('description')->type('textarea');
+    }
+
+    protected function setupCreateOperation()
+    {
+        $this->crud->setValidation(ServiceRequest::class);
+
+        $this->crud->field('title');
+        $this->crud->field('image')->type('image');
+        $this->crud->field('description')->type('textarea');
+    }
+
+    protected function setupUpdateOperation()
+    {
+        $this->setupCreateOperation();
+    }
+}
