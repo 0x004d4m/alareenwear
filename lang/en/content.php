@@ -26,4 +26,5 @@ return [
     'send_message' => 'Send Message',
     'footer' => 'Copyright © 2023 All rights reserved',
     'success' => 'Message Sent Successfully',
+    'text_align' => 'text-left',
 ];

@@ -26,4 +26,5 @@ return [
     'send_message' => 'ارسال الرسالة',
     'footer' => 'Copyright © 2023 All rights reserved',
     'success' => 'تم ارسال الرساله بنجاح',
+    'text_align' => 'text-right',
 ];

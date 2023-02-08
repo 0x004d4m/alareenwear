@@ -21,7 +21,7 @@
                     <div class="img img-about align-self-stretch"
                         style="background-image: url({{ url($About->image) }}); width: 100%;"></div>
                 </div>
-                <div class="col-md-6 pl-md-5 ftco-animate">
+                <div class="col-md-6 pl-md-5 ftco-animate {{__('content.text_align')}}">
                     <h2 class="mb-4">{{$About->title}}</h2>
                     <p>{!! $About->description !!}</p>
                 </div>
