@@ -30,10 +30,10 @@
                     <p><span>{{__('content.phone')}}:</span> <a dir="ltr" href="tel:+962795576342">+962 7 9557 6342</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>{{__('content.email')}}:</span> <a href="mailto:S.qarka@outlook.com">S.qarka@outlook.com</a></p>
+                    <p><span>{{__('content.email')}}:</span> <a href="mailto:S.qarka@alareenwear.com">S.qarka@alareenwear.com</a></p>
                 </div>
                 <div class="col-md-3">
-                    <p><span>{{__('content.email')}}:</span> <a href="mailto:Jebril@outlook.com">Jebril@outlook.com</a></p>
+                    <p><span>{{__('content.email')}}:</span> <a href="mailto:Jebril@alareenwear.com">Jebril@alareenwear.com</a></p>
                 </div>
             </div>
             <div class="row block-9">
