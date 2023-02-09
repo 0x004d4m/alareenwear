@@ -24,7 +24,7 @@
                             <a class="dropdown-item @if(Session::get('locale')==$Language->abbr)active @endif" href="{{url('set-language/'.$Language->abbr)}}">{{$Language->native}}</a>
                         @endforeach
                     </div>
-                  </li>
+                </li>
             </ul>
         </div>
     </div>
