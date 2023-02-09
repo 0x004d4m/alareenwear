@@ -1,6 +1,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+<meta name="author" content="AL-Areen Wear">
+<link rel="shortcut icon" href="favicon.png">
+
+<meta name="description" content=""/>
+<meta name="keywords" content="al-areen, alareen, areen, alareen wear, wear, clothes, Al-Areen Wear Ltd, global garment manufacturing, Deir Aby Said, clothes in Irbid, clothes in jordan, clothes supplier in jordan" />
+
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
 <link rel="stylesheet" href="{{url('template/css/open-iconic-bootstrap.min.css')}}">
