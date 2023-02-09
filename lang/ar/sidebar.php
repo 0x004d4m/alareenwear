@@ -16,7 +16,7 @@ return
     "Contact_requests"=>'طلبات التواصل',
     "Abouts"=>'من نحن',
     "Logs"=>'Logs',
-    "Authentication"=>'',
+    "Authentication"=>'المستخدمين',
     "Users"=>'المستخدمين',
     "Roles"=>'الادوار الوظيفية',
     "Translations"=>'الترجمات',
