@@ -26,7 +26,7 @@ class CertificationCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Certification::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/certification');
-        $this->crud->setEntityNameStrings('certification', 'certifications');
+        $this->crud->setEntityNameStrings(__('sidebar.certification'), __('sidebar.certifications'));
     }
 
     protected function setupListOperation()

@@ -24,7 +24,7 @@ class VideoCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Video::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/video');
-        $this->crud->setEntityNameStrings('video', 'videos');
+        $this->crud->setEntityNameStrings(__('sidebar.video'), __('sidebar.videos'));
     }
 
     protected function setupListOperation()

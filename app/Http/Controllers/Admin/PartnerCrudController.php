@@ -26,7 +26,7 @@ class PartnerCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Partner::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/partner');
-        $this->crud->setEntityNameStrings('partner', 'partners');
+        $this->crud->setEntityNameStrings(__('sidebar.partner'), __('sidebar.partners'));
     }
 
     protected function setupListOperation()

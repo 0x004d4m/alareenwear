@@ -26,7 +26,7 @@ class GalleryCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Gallery::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/gallery');
-        $this->crud->setEntityNameStrings('gallery', 'galleries');
+        $this->crud->setEntityNameStrings(__('sidebar.gallery'), __('sidebar.galleries'));
     }
 
     protected function setupListOperation()

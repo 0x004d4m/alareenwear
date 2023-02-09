@@ -26,7 +26,7 @@ class TestimonyCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Testimony::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/testimony');
-        $this->crud->setEntityNameStrings('testimony', 'testimonies');
+        $this->crud->setEntityNameStrings(__('sidebar.testimony'), __('sidebar.testimonies'));
     }
 
     protected function setupListOperation()

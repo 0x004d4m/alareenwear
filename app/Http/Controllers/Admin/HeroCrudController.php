@@ -24,7 +24,7 @@ class HeroCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Hero::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/hero');
-        $this->crud->setEntityNameStrings('hero', 'heroes');
+        $this->crud->setEntityNameStrings(__('sidebar.hero'), __('sidebar.heroes'));
     }
 
     protected function setupListOperation()

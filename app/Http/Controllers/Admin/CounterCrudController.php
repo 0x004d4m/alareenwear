@@ -24,7 +24,7 @@ class CounterCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\Counter::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/counter');
-        $this->crud->setEntityNameStrings('counter', 'counters');
+        $this->crud->setEntityNameStrings(__('sidebar.counter'), __('sidebar.counters'));
     }
 
     protected function setupListOperation()

@@ -26,7 +26,7 @@ class ContactRequestCrudController extends CrudController
         }
         $this->crud->setModel(\App\Models\ContactRequest::class);
         $this->crud->setRoute(config('backpack.base.route_prefix') . '/contact-request');
-        $this->crud->setEntityNameStrings('contact request', 'contact requests');
+        $this->crud->setEntityNameStrings(__('sidebar.contact_request'), __('sidebar.contact_requests'));
     }
 
     protected function setupListOperation()
