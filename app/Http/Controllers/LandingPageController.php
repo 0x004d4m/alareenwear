@@ -75,6 +75,13 @@ class LandingPageController extends Controller
         return view('contact');
     }
     public function contact2(Request $request){
+        $this->validate($request, [
+            'name' => 'required',
+            'email' => 'required|email',
+            'subject' => 'required',
+            'message' => 'required',
+            'g-recaptcha-response' => 'required|recaptchav3:register,0.5'
+        ]);
         ContactRequest::create([
             'name'=>$request->name??'-',
             'email'=>$request->email??'-',

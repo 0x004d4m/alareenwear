@@ -1,5 +1,8 @@
 @extends('website.layout.main')
 @section('title', __('content.contact'))
+@section('header_scripts')
+    {!! RecaptchaV3::initJs() !!}
+@endsection
 @section('content')
     <div class="hero-wrap hero-wrap-2"
         style="background-image: url('{{ url('template/images/bg_2.jpg') }}'); background-attachment:fixed;">
@@ -44,6 +47,10 @@
                     <h4 class="mb-4">{{__('content.questions')}}</h4>
                     <form action="/contact" method="POST">
                         @csrf
+                        {!! RecaptchaV3::field('register') !!}
+                        @if ($errors->has('g-recaptcha-response'))
+                            <p class="text-danger">Please Verify That You Are Not A Robot</p>
+                        @endif
                         <div class="form-group">
                             <input type="text" class="form-control" placeholder="{{__('content.name')}}" name="name" required>
                         </div>
