@@ -34,6 +34,7 @@ class TeamCrudController extends CrudController
     {
         $this->crud->column('image')->type('image');
         $this->crud->column('name');
+        $this->crud->column('position');
         $this->crud->column('twitter');
         $this->crud->column('facebook');
         $this->crud->column('instagram');
@@ -47,6 +48,7 @@ class TeamCrudController extends CrudController
 
         $this->crud->field('image')->type('image');
         $this->crud->field('name');
+        $this->crud->field('position');
         $this->crud->field('twitter');
         $this->crud->field('facebook');
         $this->crud->field('instagram');

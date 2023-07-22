@@ -20,11 +20,12 @@ class Team extends Model
     protected $fillable = [
         'image',
         'name',
+        'position',
         'twitter',
         'facebook',
         'instagram',
     ];
-    protected $translatable = ['name'];
+    protected $translatable = ['name', 'position'];
     public function setImageAttribute($value)
     {
         $attribute_name = "image";
