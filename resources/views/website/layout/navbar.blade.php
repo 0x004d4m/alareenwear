@@ -1,13 +1,13 @@
 <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
     <div class="container" dir="ltr">
-        <a class="navbar-brand" href="index.html"><i class="flaticon-university"></i> <small>Alareen Wear</small></a>
+        <a class="navbar-brand" href="#"><img src="{{ url('logo/logo.png') }}" height="10%" width="30%"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> {{__('content.menu')}}
         </button>
 
         <div class="collapse navbar-collapse" id="ftco-nav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto" style="display: -webkit-box !important;">
                 <li class="nav-item"><a href="/" class="nav-link">{{__('content.home')}}</a></li>
                 <li class="nav-item"><a href="about" class="nav-link">{{__('content.about')}}</a></li>
                 <li class="nav-item"><a href="products" class="nav-link">{{__('content.products')}}</a></li>

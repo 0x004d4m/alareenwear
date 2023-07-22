@@ -5,7 +5,7 @@
         {{-- <div class="row mb-5">
             <div class="col-md-3">
                 <div class="ftco-footer-widget mb-4">
-                    <h2><a class="navbar-brand" href="index.html"><i class="flaticon-university"></i>Genius
+                    <h2><a class="navbar-brand" href=""><i class="flaticon-university"></i>Genius
                             <br><small>University</small></a></h2>
                     <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
                         live the blind texts.</p>

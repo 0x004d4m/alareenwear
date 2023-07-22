@@ -8,7 +8,7 @@
         <div class="row">
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{url('template/images/event-1.jpg')}}');">
+                    <a href="" class="block-20" style="background-image: url('{{url('template/images/event-1.jpg')}}');">
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
@@ -21,13 +21,13 @@
                             <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                         </p>
-                        <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                        <p><a href="">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry d-flex align-self-stretch flex-column-reverse">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{url('template/images/event-2.jpg')}}');">
+                    <a href="" class="block-20" style="background-image: url('{{url('template/images/event-2.jpg')}}');">
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
@@ -40,13 +40,13 @@
                             <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                         </p>
-                        <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                        <p><a href="">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
                     </div>
                 </div>
             </div>
             <div class="col-md-4 d-flex ftco-animate">
                 <div class="blog-entry align-self-stretch">
-                    <a href="blog-single.html" class="block-20" style="background-image: url('{{url('template/images/event-3.jpg')}}');">
+                    <a href="" class="block-20" style="background-image: url('{{url('template/images/event-3.jpg')}}');">
                     </a>
                     <div class="text p-4 d-block">
                         <div class="meta mb-3">
@@ -59,7 +59,7 @@
                             <span><i class="icon-map-o"></i> Venue Main Campus</span></p>
                         <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.
                         </p>
-                        <p><a href="event.html">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
+                        <p><a href="">Join Event <i class="ion-ios-arrow-forward"></i></a></p>
                     </div>
                 </div>
             </div>
