@@ -5,7 +5,7 @@
                 <h2 class="mb-4">{{__('content.team')}}</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             @foreach ($Team as $Member)
                 <div class="col-lg-4 mb-sm-4 ftco-animate">
                     <div class="staff">
