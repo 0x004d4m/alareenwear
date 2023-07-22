@@ -7,7 +7,7 @@
                         <div class="icon d-flex justify-content-center align-items-center mb-3"><img src="{{$Service->image}}" class="img-fluid"></div>
                         <div class="media-body px-3">
                             <h3 class="heading">{{$Service->title}}</h3>
-                            <p>{{$Service->description}}</p>
+                            {{-- <p>{{$Service->description}}</p> --}}
                         </div>
                     </div>
                 </div>
