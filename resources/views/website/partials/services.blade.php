@@ -1,6 +1,6 @@
 <section class="ftco-section">
     <div class="container">
-        <div class="row">
+        <div class="row justify-content-center">
             @foreach ($Services as $Service)
                 <div class="col-md-4 align-self-stretch ftco-animate">
                     <div class="media block-6 services p-3 py-4 d-block text-center">
