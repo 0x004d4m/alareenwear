@@ -5,7 +5,7 @@
                 <h2 class="mb-4">{{__('content.certifications')}}</h2>
             </div>
         </div>
-        <div class="row">
+        <div class="row justify-content-center">
             @foreach ($Certifications as $Certification)
                 <div class="col-md-4 ftco-animate">
                     <div class="blog-entry align-self-stretch">
