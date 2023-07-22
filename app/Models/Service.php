@@ -19,12 +19,12 @@ class Service extends Model
     protected $guarded = ['id'];
     protected $fillable = [
         'title',
-        'description',
+        // 'description',
         'image',
     ];
     protected $translatable = [
         'title',
-        'description',
+        // 'description',
     ];
     public function setImageAttribute($value)
     {

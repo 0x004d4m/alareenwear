@@ -35,7 +35,7 @@ class ServiceCrudController extends CrudController
         $this->crud->column('image')->type('image');
         $this->crud->column('created_at');
         $this->crud->column('updated_at');
-        $this->crud->column('description')->type('textarea');
+        // $this->crud->column('description')->type('textarea');
     }
 
     protected function setupCreateOperation()
@@ -44,7 +44,7 @@ class ServiceCrudController extends CrudController
 
         $this->crud->field('title');
         $this->crud->field('image')->type('image');
-        $this->crud->field('description')->type('textarea');
+        // $this->crud->field('description')->type('textarea');
     }
 
     protected function setupUpdateOperation()
