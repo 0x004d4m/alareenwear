@@ -37,7 +37,7 @@ class LandingPageController extends Controller
             "Testimonies"=>Testimony::get(),
             "Products"=>Product::limit(3)->get(),
             "Blogs"=>Blog::limit(3)->get(),
-            "Galleries"=>Gallery::limit(9)->get(),
+            "Galleries"=>Gallery::limit(3)->get(),
             "Team"=>Team::limit(3)->get(),
             "Certifications"=>Certification::get(),
             "Partners"=>Partner::get(),
