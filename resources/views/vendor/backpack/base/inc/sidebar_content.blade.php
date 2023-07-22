@@ -66,11 +66,8 @@
             <li class="nav-item"><a class="nav-link" href="{{ backpack_url('role') }}"><i class="nav-icon la la-id-badge"></i> <span>{{__('sidebar.Roles')}}</span></a></li>
         </ul>
     </li>
-    <li class="nav-item nav-dropdown">
-        <a class="nav-link nav-dropdown-toggle" href="#"><i class="nav-icon la la-globe"></i> {{__('sidebar.Translations')}}</a>
-        <ul class="nav-dropdown-items">
-            {{-- <li class="nav-item"><a class="nav-link" href="{{ backpack_url('language') }}"><i class="nav-icon la la-flag-checkered"></i> Languages</a></li> --}}
-            <li class="nav-item"><a class="nav-link" href="{{ backpack_url('language/texts') }}"><i class="nav-icon la la-language"></i> {{__('sidebar.Site_texts')}}</a></li>
-        </ul>
-    </li>
+@endif
+
+@if(backpack_user()->can('Manage Translations'))
+    <li class="nav-item"><a class="nav-link" href="{{ backpack_url('language/texts') }}"><i class="nav-icon la la-language"></i> {{__('sidebar.Site_texts')}}</a></li>
 @endif
