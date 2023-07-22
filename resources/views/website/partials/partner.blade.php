@@ -9,7 +9,7 @@
             @foreach ($Partners as $Partner)
                 <div class="col-md-4 ftco-animate">
                     <div class="blog-entry align-self-stretch">
-                        <a class="block-20" style="background-image: url('{{url($Partner->image)}}');">
+                        <a class="block-20" style="background-size: contain;background-image: url('{{url($Partner->image)}}');">
                         </a>
                     </div>
                 </div>
