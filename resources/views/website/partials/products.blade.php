@@ -11,9 +11,9 @@
                     <div class="course align-self-stretch">
                         <a href="#" class="img"
                             style="background-image: url({{ url($Product->image) }})"></a>
-                        <div class="text p-4">
+                        {{-- <div class="text p-4">
                             <h3 class="mb-3"><a href="#">{{$Product->name}}</a></h3>
-                        </div>
+                        </div> --}}
                     </div>
                 </div>
             @endforeach
