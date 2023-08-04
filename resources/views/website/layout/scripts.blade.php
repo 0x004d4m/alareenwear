@@ -13,5 +13,5 @@
 <script src="{{url('template/js/jquery.timepicker.min.js')}}"></script>
 <script src="{{url('template/js/scrollax.min.js')}}"></script>
 {{-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script> --}}
-<script src="{{url('template/js/google-map.js')}}"></script>
+{{-- <script src="{{url('template/js/google-map.js')}}"></script> --}}
 <script src="{{url('template/js/main.js')}}"></script>
