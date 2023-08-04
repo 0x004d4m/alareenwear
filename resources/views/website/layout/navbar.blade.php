@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light ftco_navbar bg-light ftco-navbar-light" id="ftco-navbar">
     <div class="container" dir="ltr">
         <a class="navbar-brand" href="#"><img src="{{ url('logo/logo.png') }}" height="10%" width="30%"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav"
+        <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#ftco-nav"
             aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="oi oi-menu"></span> {{__('content.menu')}}
         </button>
