@@ -9,7 +9,7 @@ return [
     'contact' => 'Contact',
     'about' => 'About',
     'gallery' => 'Gallery',
-    'testimony' => 'What Our Customers Says',
+    'testimony' => 'What Our Clients Says',
     'certifications' => 'Certifications',
     'partners' => 'Partners',
     'contact_information' => 'Contact Information',
