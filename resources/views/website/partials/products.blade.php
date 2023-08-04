@@ -7,7 +7,7 @@
         </div>
         <div class="row text-center">
             @foreach ($Products as $Product)
-                <div class="col-md-4 ftco-animate">
+                <div class="col-4 ftco-animate">
                     <div class="course align-self-stretch">
                         <a href="#" class="img"
                             style="background-image: url({{ url($Product->image) }})"></a>
