@@ -2,7 +2,7 @@
 @section('title', __('content.team'))
 @section('content')
     <div class="hero-wrap hero-wrap-2"
-        style="background-image: url('{{ url('hero/f.jpeg') }}'); background-attachment:fixed;">
+        id="mainPhoto" style="background-image: url('{{ url('hero/f.jpeg') }}'); background-attachment:fixed;">
         <div class="overlay"  style="background: linear-gradient(to right, #000064 0%, #f28d00 100%) !important;"></div>
         <div class="container">
             <div class="row no-gutters slider-text align-items-center justify-content-center" data-scrollax-parent="true">
@@ -15,4 +15,19 @@
         </div>
     </div>
     @include('website.partials.team')
+@endsection
+@section('scripts')
+    <script>
+        let images = ['{{ url("hero/b.jpeg") }}', '{{ url("hero/c.jpeg") }}', '{{ url("hero/d.jpeg") }}', '{{ url("hero/e.jpeg") }}', '{{ url("hero/f.jpeg") }}'];
+        let index = 0;
+        const imgElement = document.querySelector('#mainPhoto');
+        function changeImage() {
+            imgElement.style["background-image"] = "url('"+images[index]+"')";
+            index > 1 ? index = 0 : index++;
+        }
+
+        window.onload = function() {
+            setInterval(changeImage, 5000);
+        };
+    </script>
 @endsection
