@@ -32,3 +32,18 @@
         @include('website.partials.blog')
     @endif
 @endsection
+@section('scripts')
+    <script>
+        let images = ['{{ url("hero/b.jpeg") }}', '{{ url("hero/c.jpeg") }}', '{{ url("hero/d.jpeg") }}', '{{ url("hero/e.jpeg") }}', '{{ url("hero/f.jpeg") }}'];
+        let index = 0;
+        const imgElement = document.querySelector('#mainPhoto2');
+        function changeImage() {
+            imgElement.style["background-image"] = "url('"+images[index]+"')";
+            index > 1 ? index = 0 : index++;
+        }
+
+        window.onload = function() {
+            setInterval(changeImage, 5000);
+        };
+    </script>
+@endsection

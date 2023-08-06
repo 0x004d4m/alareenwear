@@ -1,4 +1,4 @@
-<section class="ftco-section-3 img" style="background-image: url({{url($Video->image)}});">
+<section id="mainPhoto2" class="ftco-section-3 img" style="background-image: url({{url('hero/a.jpeg')}});">
     <div class="overlay" style="background: linear-gradient(to right, #000064 0%, #f28d00 100%) !important;"></div>
     <div class="container">
         <div class="row d-md-flex justify-content-center">
