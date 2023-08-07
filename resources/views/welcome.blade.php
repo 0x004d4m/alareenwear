@@ -1,5 +1,14 @@
 @extends('website.layout.main')
 @section('title', __('content.home'))
+@section('styles')
+<style>
+    @media (max-width:640px) {
+      .hero-wrap {
+        background-attachment:initial !important;
+      }
+    }
+</style>
+@endsection
 @section('content')
     @include('website.partials.hero')
 
